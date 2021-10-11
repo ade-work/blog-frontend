@@ -1,10 +1,20 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="app">
+    <application-bar />
+    <router-view class="content" />
   </div>
-  <router-view/>
 </template>
+
+
+<script>
+import ApplicationBar from "@/components/ui/ApplicationBar";
+
+
+export default {
+  components: {ApplicationBar}
+}
+</script>
+
 
 <style lang="scss">
 #app {
@@ -27,4 +37,10 @@
     }
   }
 }
+
+.content {
+  padding-top: 5.5vh;
+  padding-left: 10%;
+}
+
 </style>
