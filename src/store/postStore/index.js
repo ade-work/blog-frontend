@@ -17,7 +17,7 @@ export default {
           },
           {
             id: 4,
-            user: "FinnishMan",
+            user: "FAPAH",
             date: "2021-01-20 20:30:34",
             post: "Please..."
           }
@@ -28,6 +28,12 @@ export default {
         user: "cshannon",
         date: "2021-01-19 15:25:20",
         post: "Say something here"
+      },
+      {
+        id: 3,
+        user: "FAPAH",
+        date: "2021-01-19 15:25:20",
+        post: "Today is Friday"
       }
     ]
   },
